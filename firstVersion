@@ -1,8 +1,20 @@
+début de nombre_bonbon (entier mon_argent, entier prix_1bonbon)
+
+mon_argent et prix_1bonbon > 0
+
 mon_argent = x
-prix_bonbon = y
+prix_1bonbon = y
 nombre_bonbon = z
 
 tant que x > y 
-faire x - y = z + 1
+z <-- z + 1
+x <-- x - y
 
-donner z
+sinon z = 0
+
+fin tant que
+fin sinon
+ 
+ retourner z
+ 
+ fin de nombre_bonbon
