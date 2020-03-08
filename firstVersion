@@ -1,0 +1,8 @@
+mon_argent = x
+prix_bonbon = y
+nombre_bonbon = z
+
+tant que x > y 
+faire x - y = z + 1
+
+donner z
