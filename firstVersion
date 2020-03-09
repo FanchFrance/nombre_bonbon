@@ -7,7 +7,7 @@ mon_argent > 0 et prix_1bonbon > 0
  
 nombre_bonbon = 0
 
-tant que mon_argent > prix_1_bonbon 
+tant que mon_argent >= prix_1_bonbon 
 nombre_bonbon <-- nombre_bonbon + 1
 mon_argent <-- mon_argent - prix_1_bonbon
 
