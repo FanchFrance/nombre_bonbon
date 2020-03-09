@@ -13,7 +13,6 @@ mon_argent <-- mon_argent - prix_1_bonbon
 
  
 fin tant que
-fin sinon
  
  retourner nombre_bonbon
  
