@@ -3,7 +3,7 @@ début de nombre_bonbon (entier mon_argent, entier prix_1bonbon)
 demander mon_argent
 demander prix_1_bonbon
 
-mon_argent > 0 et prix_1bonbon > 0
+si mon_argent > 0 et prix_1bonbon > 0
  
 nombre_bonbon = 0
 
@@ -13,7 +13,8 @@ mon_argent <-- mon_argent - prix_1_bonbon
 
  
 fin tant que
- 
+fin si 
+
  retourner nombre_bonbon
  
  fin de nombre_bonbon
